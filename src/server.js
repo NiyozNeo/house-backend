@@ -8,7 +8,6 @@ const routes = require("./modules/routes");
 
 app.use(express.json());
 
-
 app.use(cors());
 app.use(routes);
 
