@@ -6,6 +6,7 @@ const { GET : getDev } = require("./getDeveloper/getDeveloper");
 const { POST, GET } = require("./getComplex/getComplex");
 const {banks} = require("./getBanks/getBanks")
 const { HOUSES} = require("./getHouse/getHouse")
+const home = require("./Home/Home")
 const router = express.Router();
 
 router
@@ -16,5 +17,6 @@ router
   .get('/banks', banks)
   .get('/complex', GET)
   .get('/house', HOUSES)
+  .post("/home", home.POST)
 
 module.exports = router;
