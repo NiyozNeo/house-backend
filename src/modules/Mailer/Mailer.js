@@ -18,7 +18,7 @@ async function main(email , msg) {
     to: email, // list of receivers
     subject: "Uy masalasi bo'yicha", // Subject line
     text: `
-    siz ${msg.comp} kompaniyasidan ${msg.tur} turar joy majmuasidagi ${msg.room} xonali uyni ${msg.price} narxida sotib oldingiz ${msg.bank} orqali tanlov uchun rahmat
+    siz ${msg.dev} kompaniyasidan ${msg.comp} turar joy majmuasidagi ${msg.room} xonali uyni ${msg.price} narxida sotib oldingiz ${msg.bank} orqali tanlov uchun rahmat
     `, // plain text body
   });
   return console.log(info);
