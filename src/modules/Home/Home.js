@@ -1,5 +1,4 @@
 const main = require("../Mailer/Mailer")
-const model = require("./model")
 
 module.exports = {
     POST: async (req, res) => {
